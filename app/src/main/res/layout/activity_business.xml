@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#FFD600"
+android:gravity="center_vertical"
+android:orientation="vertical"
+android:padding="15dp"
+tools:context=".BusinessActivity">
+
+<!-- TextView for heading -->
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="@string/business"
+    android:textColor="@color/black"
+    android:textSize="28sp"
+    android:minHeight="60dip"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toTopOf="@id/button_Log_out"
+    app:layout_constraintTop_toBottomOf="@+id/textView2"
+    tools:layout_editor_absoluteX="15dp">
+
+    <Button
+        android:id="@+id/btnStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dip"
+        android:text="@string/stock_management"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dip"
+        android:text="@string/account_management"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dip"
+        android:text="@string/customer_management"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dip"
+        android:text="@string/employee_management"
+        android:textSize="16sp" />
+
+</LinearLayout>
+
+<!-- Button for Logout with text "Logout" -->
+<Button
+    android:id="@+id/button_Log_out"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    android:minHeight="60dip"
+    android:text="@string/log_out"
+    android:textSize="18sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

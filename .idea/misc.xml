@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_account.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_account_management.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_add_customer_record.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_add_sold_record.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_business.xml" value="0.1796875" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_business_management.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_customer_list.xml" value="0.10655737704918032" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_customer_management.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_customer_search.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_stock.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_stock_list.xml" value="0.20985401459854014" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_stock_management.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_stock_search.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_update_customer_record.xml" value="0.14130434782608695" />
+        <entry key="..\:/BusinessApp/app/src/main/res/layout/activity_update_stock_data.xml" value="0.14130434782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
